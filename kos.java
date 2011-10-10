@@ -1,4 +1,3 @@
-
 /**
  *      Lab2.java
  *@author Kostya Kryvchenkoff
@@ -77,7 +76,7 @@ public class kos
 {
 	public static void main (String args[])
 	{
-			TextBook Text = new TextBook(Double.parseInt(args[0]),Integer.parseInt(args[1]),Double.parseDouble(args[2]));
+			TextBook Text = new TextBook(Integer.parseInt(args[0]),Integer.parseInt(args[1]),Double.parseDouble(args[2]));
 			Text.About();
 
 	}
